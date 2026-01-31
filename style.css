@@ -1,3 +1,22 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.pagina {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.navegacao {
+    background-color: red;
+    display: flex;
+    flex-flow: column;
+}
+
+.main {
+    background-color: aqua;
+    flex-grow: 1;
 }
