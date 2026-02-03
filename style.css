@@ -1,22 +1,96 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     color: white;
     background-color: black;
+	 font-weight: 300;
 }
 
 .pagina {
     display: flex;
     flex-flow: row;
     width: 100%;
+	 min-height: 100vh;
+}
+
+.quantidade-produtos {
+	color: #828080;
 }
 
 .navegacao {
-    background-color: red;
-    display: flex;
-    flex-flow: column;
+	display: flex;
+	flex-flow: column;
+    background-color: black;
+	 width: 18%;
+	 border-right: 1px solid #5a595946;
+}
+
+.cabecalho-navegacao {
+	margin-top: 100px;
+	margin-bottom: 60px;
+	padding: 10px 40px;
+
+}
+
+.lista-navegacao {
+	 list-style-type: none;
+	padding: 0;
+	width: 100%;
+}
+
+.layout-navegacao {
+	width: 100%;
+}
+
+.botao-navegacao {
+	text-decoration: none;
+	color: #828080;
+	width: 100%;
+	display: block;
+	padding: 10px 40px;
+	font-size: 15px;
+}
+
+.botao-navegacao:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.ti-settings {
+	padding-top: 210px;
+	font-size: 34px;
+	margin-left: 40px;
 }
 
 .main {
-    background-color: aqua;
+    background-color: black;
     flex-grow: 1;
+	 font-weight: 300;
+	 margin: 60px;
+}
+
+.catalago {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.titulo-catalogo {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.ti-search {
+	font-size: 20px;
+}
+
+.ti-adjustments-horizontal {
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.ti-users {
+	font-size: 20px;
+	padding-left: 20px;
 }
