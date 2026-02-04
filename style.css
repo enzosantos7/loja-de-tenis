@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     color: white;
-    background-color: black;
+    background-color: #191a21;
 	 font-weight: 300;
 }
 
@@ -13,13 +13,13 @@ body {
 }
 
 .quantidade-produtos {
-	color: #828080;
+	color: #9b9b9b;
 }
 
 .navegacao {
 	display: flex;
 	flex-flow: column;
-    background-color: black;
+    background-color: #191a21;
 	 width: 18%;
 	 border-right: 1px solid #5a595946;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .lista-navegacao {
-	 list-style-type: none;
+	list-style-type: none;
 	padding: 0;
 	width: 100%;
 }
@@ -43,11 +43,11 @@ body {
 
 .botao-navegacao {
 	text-decoration: none;
-	color: #828080;
+	color: #989797;
 	width: 100%;
 	display: block;
-	padding: 10px 40px;
-	font-size: 15px;
+	padding: 14px 40px;
+	font-size: 16px;
 }
 
 .botao-navegacao:hover {
@@ -62,10 +62,10 @@ body {
 }
 
 .main {
-    background-color: black;
+    background-color: #191a21;
     flex-grow: 1;
 	 font-weight: 300;
-	 margin: 60px;
+	 margin: 80px;
 }
 
 .catalago {
@@ -87,10 +87,77 @@ body {
 
 .ti-adjustments-horizontal {
 	font-size: 20px;
-	padding-left: 20px;
+	padding-left: 35px;
 }
 
 .ti-users {
 	font-size: 20px;
-	padding-left: 20px;
+	padding-left: 35px;
+}
+
+.catalago-tenis {
+	display: flex;
+}
+
+.best-sellers {
+	border: 1px solid #5a595946;
+	padding: 10px 10px 10px 10px;
+	border-radius: 24px;
+}
+
+.espaco-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 480px;
+	height: 240px;
+	background-color: #ffffff;
+	border-radius: 24px;
+}
+
+.image-sellers {
+	height: 160px;
+	transform: rotatey(180deg);
+}
+
+.informacoes-sellers {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0px 0px 0px;
+}
+
+.sellers {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.unidade-sellers {
+	font-size: 13px;
+}
+
+.newlow-box {
+	display: flex;
+	border: 1px solid #5a595946;
+	padding: 16px;
+	border-radius: 20px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.espaco-newlow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 210px;
+	height: 120px;
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+
+.image-newlow {
+	height: 80px;
+}
+
+.layout-newlow {
+	
 }
