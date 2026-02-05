@@ -97,11 +97,12 @@ body {
 
 .catalago-tenis {
 	display: flex;
+	gap: 30px;
 }
 
 .best-sellers {
 	border: 1px solid #5a595946;
-	padding: 10px 10px 10px 10px;
+	padding: 16px;
 	border-radius: 24px;
 }
 
@@ -123,16 +124,28 @@ body {
 .informacoes-sellers {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px 0px 0px 0px;
+	margin-top: 20px;
 }
 
 .sellers {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 24px;
+	margin: 0px 10px 0px 10px;
 }
 
+.unidade-newlow,
 .unidade-sellers {
-	font-size: 13px;
+	font-size: 16px;
+	margin: 5px 0px 4px 10px;
+	color: #787777;
+}
+
+.lista-newlow {
+	width: 100%;
+	width: 100%;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
 }
 
 .newlow-box {
@@ -141,7 +154,6 @@ body {
 	padding: 16px;
 	border-radius: 20px;
 	margin-left: 30px;
-	margin-bottom: 30px;
 }
 
 .espaco-newlow {
@@ -149,15 +161,27 @@ body {
 	justify-content: center;
 	align-items: center;
 	width: 210px;
-	height: 120px;
+	height: 130px;
 	background-color: #ffffff;
 	border-radius: 20px;
 }
 
 .image-newlow {
-	height: 80px;
+	height: 70px;
 }
 
 .layout-newlow {
-	
+	padding-left: 25px;
+}
+
+.newlow {
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0px 10px 0px 10px;
+}
+
+.valor-newlow {
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0px 10px 0px 10px;
 }
