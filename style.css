@@ -27,7 +27,7 @@ body {
 
 .cabecalho-navegacao {
 	margin-top: 100px;
-	margin-bottom: 60px;
+	margin-bottom: 100px;
 	padding: 10px 40px;
 
 }
@@ -48,7 +48,8 @@ body {
 	width: 100%;
 	display: block;
 	padding: 14px 40px;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 500;
 }
 
 .botao-navegacao:hover {
@@ -215,6 +216,10 @@ body {
 
 .image-rodape {
 	height: 70px;
+}
+
+.image-rodapebrown {
+	height: 85px;
 }
 
 .image-rodapered {
