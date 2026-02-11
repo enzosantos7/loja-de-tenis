@@ -19,6 +19,7 @@ body {
 .navegacao {
 	display: flex;
 	flex-flow: column;
+	justify-content: space-between;
     background-color: #191a21;
 	 width: 18%;
 	 border-right: 1px solid #5a595946;
@@ -56,9 +57,10 @@ body {
 }
 
 .ti-settings {
-	padding-top: 210px;
+	margin-top: 210px;
 	font-size: 34px;
 	margin-left: 40px;
+	margin-bottom: 68px;
 }
 
 .main {
@@ -97,7 +99,6 @@ body {
 
 .catalago-tenis {
 	display: flex;
-	gap: 30px;
 }
 
 .best-sellers {
@@ -118,7 +119,6 @@ body {
 
 .image-sellers {
 	height: 160px;
-	transform: rotatey(180deg);
 }
 
 .informacoes-sellers {
@@ -181,6 +181,60 @@ body {
 }
 
 .valor-newlow {
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0px 10px 0px 10px;
+}
+
+.lista-rodape {
+	list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.catalogo-rodape {
+	margin-top: 30px;
+}
+
+.layout-rodape {
+	border: 1px solid #5a595946;
+   padding: 16px;
+   border-radius: 20px;
+}
+
+.espaco-rodape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 195px;
+	height: 130px;
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+
+.image-rodape {
+	height: 70px;
+}
+
+.image-rodapered {
+	height: 70px;
+	transform: rotatey(180deg);
+}
+
+.nome-tenis {
+	font-weight: 400;
+	font-size: 20px;
+	margin: 10px 0px 0px 10px;
+}
+
+.unidade-tenis {
+	font-size: 16px;
+	margin: 5px 0px 4px 10px;
+	color: #787777;
+}
+
+.valor-tenis {
 	font-weight: 400;
 	font-size: 16px;
 	margin: 0px 10px 0px 10px;
